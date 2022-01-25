@@ -1,104 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interview</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+/* In CSS, a margin is the space around an element's border, while padding is the space between an element's border 
+and the element's content. Put another way, the margin property controls the space outside an element, and the 
+padding property controls the space inside an element. */
 
-<body>
-    <div>
-        <h2>Student 1</h2>
-        <a href = "https://github.com/BigMoneyBones">Jesse's GitHUB</a>
-        <img src = "https://avatars.githubusercontent.com/u/87784559?v=4" alt="Jesse" width="250" height="250"/>
+div {
+    border-color: blue;
+    border-style: double;
+    width: 650px;
+    height:auto;
+    padding: 25px; //padding is used to create space around an elements content, inside of any defined borders.
+    box-shadow: 10 10 yellow;
 
-        <ol>
-            <li> <b>What is your name?</b> </li>
-            &bull;Jesse Raines
-            <li> <b>What is your age?</b> </li>
-            &bull;29 years old
-            <li> <b>What is your favorite color?</b> </li>
-            &bull;Aqua Marine
-            <li> <b>What is your hometown?</b> </li>
-            &bull;Lima, OH
-            <li> <b>What is your current place of residence?</b> </li>
-            &bull;San Antonio, TX
-            <li> <b>Where would you like to live?</b> </li>
-            &bull;East Coast or West Coast
-            <li> <b>Do you have any pets?</b> </li>
-            &bull;2 Cats
-            <li> <b>Do you have any children?</b> </li>
-            &bull;None Currently
-            <li> <b>What kind of car do you drive?</b> </li>
-            &bull;2000 WS6 Trans Am / 1999 Ford Mustang Cobra SVT
-            <li> <b>What is your favorite food?</b> </li>
-            &bull;Cheesecake
-        </ol>
+}
 
-    </div>
+img {
+    border-style: solid;
+    border-radius: 50px;
+}
 
-    <div>
-        <h2>Student 2</h2>
-        <a href = "https://github.com/leah167">Leah's GitHUB</a>
-        <img src = "https://avatars.githubusercontent.com/u/98351929?v=4" alt="Leah" width="250" height="250"/>
+li {
+    margin: 10px;
+    font-style: italic;
 
-        <ol>
-            <li> <b>What is your name?</b> </li>
-            &bull; Leah Sanchez
-            <li> <b>What is your age?</b> </li>
-            &bull; 30 years old
-            <li> <b>What is your favorite color?</b> </li>
-            &bull; Turquoise
-            <li> <b>What is your hometown?</b> </li>
-            &bull; Santa Clara, CA
-            <li> <b>What is your current place of residence?</b> </li>
-            &bull; Santa Fe, NM
-            <li> <b>Where would you like to live?</b> </li>
-            &bull; Washington State
-            <li> <b>Do you have any pets? </b> </li>
-            &bull; 2 cats & 3 dogs
-            <li> <b>Do you have any children? </b> </li>
-            &bull; No kids
-            <li> <b>What kind of car do you drive?</b> </li>
-            &bull; 2017 Nissan Murano
-            <li> <b>What is your favorite food? </b> </li>
-            &bull; Pizza
-        </ol>
+}
 
-    </div>
+body {
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?cs=srgb&dl=pexels-henry-%26-co-1939485.jpg&fm=jpg')
+}
 
-    <div>
-        <h2>Student 3</h2>
-        <a href = "https://github.com/hojongyu2">Ho's GitHUB</a>
-        <img src = "https://avatars.githubusercontent.com/u/98355250?v=4" alt="Ho" Width="250" Height="250"/>
-
-
-        <ol>
-            <li> <b>What is your name?</b> </li>
-            &bull; Ho Jong Yu
-            <li><b>What is your age?</b> </li>
-            &bull; 31 years old
-            <li> <b>What is your favorite color?</b> </li>
-            &bull; Red
-            <li> <b>What is your hometown?</b> </li>
-            &bull; Palisades Park, NJ
-            <li> <b>What is your current place of residence?</b> </li>
-            &bull; Palisades Park, NJ
-            <li> <b>Where would you like to live?</b> </li>
-            &bull; NYC
-            <li> <b>Do you have any pets?</b> </li>
-            &bull; No, but willing to adopt one
-            <li> <b>Do you have any children?</b> </li>
-            &bull; No
-            <li> <b>What kind of car do you drive?</b> </li>
-            &bull; Toyota Camry
-            <li> <b>What is your favorite food?</b> </li>
-            &bull; Mexican
-        </ol>
-
-    </div>
-    
-</body>
-</html>
+h1, h2, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
