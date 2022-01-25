@@ -1,0 +1,32 @@
+/* In CSS, a margin is the space around an element's border, while padding is the space between an element's border 
+and the element's content. Put another way, the margin property controls the space outside an element, and the 
+padding property controls the space inside an element. */
+
+div {
+    border-color: blue;
+    border-style: double;
+    width: 650px;
+    height:auto;
+    padding: 25px; //padding is used to create space around an elements content, inside of any defined borders.
+    box-shadow: 10 10 yellow;
+
+}
+
+img {
+    border-style: solid;
+    border-radius: 50px;
+}
+
+li {
+    margin: 10px;
+    font-style: italic;
+
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?cs=srgb&dl=pexels-henry-%26-co-1939485.jpg&fm=jpg')
+}
+
+h1, h2, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
